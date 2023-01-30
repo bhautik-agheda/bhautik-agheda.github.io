@@ -137,6 +137,124 @@
 }
 
 
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('font/Poppins-Bold.eot');
+    src: url('font/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/Poppins-Bold.woff2') format('woff2'),
+        url('font/Poppins-Bold.woff') format('woff'),
+        url('font/Poppins-Bold.ttf') format('truetype'),
+        url('font/Poppins-Bold.svg#Poppins-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'poppins-black';
+    src: url('font/Poppins-Black.eot');
+    src: url('font/Poppins-Black.eot?#iefix') format('embedded-opentype'),
+        url('font/Poppins-Black.woff2') format('woff2'),
+        url('font/Poppins-Black.woff') format('woff'),
+        url('font/Poppins-Black.ttf') format('truetype'),
+        url('font/Poppins-Black.svg#Poppins-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'poppins-extraLight';
+    src: url('font/Poppins-ExtraLight.eot');
+    src: url('font/Poppins-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('font/Poppins-ExtraLight.woff2') format('woff2'),
+        url('font/Poppins-ExtraLight.woff') format('woff'),
+        url('font/Poppins-ExtraLight.ttf') format('truetype'),
+        url('font/Poppins-ExtraLight.svg#Poppins-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'poppins-light';
+    src: url('font/Poppins-Light.eot');
+    src: url('font/Poppins-Light.eot?#iefix') format('embedded-opentype'),
+        url('font/Poppins-Light.woff2') format('woff2'),
+        url('font/Poppins-Light.woff') format('woff'),
+        url('font/Poppins-Light.ttf') format('truetype'),
+        url('font/Poppins-Light.svg#Poppins-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'poppins-extrabold';
+    src: url('font/Poppins-ExtraBold.eot');
+    src: url('font/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('font/Poppins-ExtraBold.woff2') format('woff2'),
+        url('font/Poppins-ExtraBold.woff') format('woff'),
+        url('font/Poppins-ExtraBold.ttf') format('truetype'),
+        url('font/Poppins-ExtraBold.svg#Poppins-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url('font/Poppins-SemiBold.eot');
+    src: url('font/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('font/Poppins-SemiBold.woff2') format('woff2'),
+        url('font/Poppins-SemiBold.woff') format('woff'),
+        url('font/Poppins-SemiBold.ttf') format('truetype'),
+        url('font/Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('font/Poppins-Medium.eot');
+    src: url('font/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/Poppins-Medium.woff2') format('woff2'),
+        url('font/Poppins-Medium.woff') format('woff'),
+        url('font/Poppins-Medium.ttf') format('truetype'),
+        url('font/Poppins-Medium.svg#Poppins-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'poppins-thin';
+    src: url('font/Poppins-Thin.eot');
+    src: url('font/Poppins-Thin.eot?#iefix') format('embedded-opentype'),
+        url('font/Poppins-Thin.woff2') format('woff2'),
+        url('font/Poppins-Thin.woff') format('woff'),
+        url('font/Poppins-Thin.ttf') format('truetype'),
+        url('font/Poppins-Thin.svg#Poppins-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('font/Poppins-Regular.eot');
+    src: url('font/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/Poppins-Regular.woff2') format('woff2'),
+        url('font/Poppins-Regular.woff') format('woff'),
+        url('font/Poppins-Regular.ttf') format('truetype'),
+        url('font/Poppins-Regular.svg#Poppins-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 html {
     font-size: 10px;
@@ -155,7 +273,7 @@ body {
 
 body {
     background: #0a0809;
-    font-family: "poppinsregular", serif;
+    font-family: "poppins-regular", serif;
     font-size: 1.6rem;
     line-height: 1.875;
     color: #5f5f5f;
@@ -312,7 +430,7 @@ p.lead {
     line-height: 1.8;
     margin-bottom: 3.6rem;
     color: #a2a2a2;
-    font-family: "poppinsregular", serif;
+    font-family: "poppins-regular", serif;
 }
 
 p.lead a {
@@ -342,7 +460,7 @@ i {
 
 strong,
 b {
-    font-family: "poppinssemibold", serif;
+    font-family: "poppins-semibold", serif;
 }
 
 small {
@@ -395,7 +513,7 @@ blockquote cite a:visited {
 }
 
 abbr {
-    font-family: "poppinssemibold", serif;
+    font-family: "poppins-semibold", serif;
     font-variant: small-caps;
     text-transform: lowercase;
     letter-spacing: .05rem;
@@ -1477,7 +1595,7 @@ a.Download-btn:hover {
 }
 
 .section-intro h1 {
-    font-family: "poppinssemibold", serif;
+    font-family: "poppins-semibold", serif;
     font-size: 3.6rem;
     line-height: 1.375;
     margin-top: 0;
@@ -2011,14 +2129,14 @@ a.Download-btn:hover {
     display: inline-block;
     width: 100%;
     font-weight: 500;
-    font-family: "poppinsregular", serif;
+    font-family: "poppins-regular", serif;
     letter-spacing: 4.5px;
 }
 
 
 
 .home-content h1 {
-    font-family: 'poppinssemibold';
+    font-family: 'poppins-semibold';
     color: #337173;
     font-size: 6rem;
     line-height: 1;
@@ -3184,7 +3302,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .testimonials-header h2 {
-    font-family: "poppinssemibold", serif;
+    font-family: "poppins-semibold", serif;
     font-size: 4.2rem;
     color: #00aafd;
     margin: 50px;
@@ -3484,7 +3602,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__count {
-    font-family: "poppinssemibold", serif;
+    font-family: "poppins-semibold", serif;
     font-size: 7.2rem;
     line-height: 1;
     color: #0D0A0B;
@@ -4211,7 +4329,7 @@ article.blog-single .blog-content {
 .page-header__title {
     color: #FFFFFF;
     position: relative;
-    font-family: "poppinssemibold", serif;
+    font-family: "poppins-semibold", serif;
     font-size: 6.6rem;
     line-height: 1.227;
     margin-top: 0;
